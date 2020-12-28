@@ -1,0 +1,30 @@
+Админ@DESKTOP-3UK0FOI MINGW64 ~/Desktop/LR_4 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    Docx.docx
+
+
+Админ@DESKTOP-3UK0FOI MINGW64 ~/Desktop/LR_4 (master)
+$ git commit -m "deleted docx file"
+[master 4f7ea14] deleted docx file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 Docx.docx
+
+Админ@DESKTOP-3UK0FOI MINGW64 ~/Desktop/LR_4 (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 268 bytes | 268.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Kirill-spek/LR_4.git
+   b8c126e..4f7ea14  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Админ@DESKTOP-3UK0FOI MINGW64 ~/Desktop/LR_4 (master)
+$ git status
